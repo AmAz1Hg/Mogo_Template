@@ -939,6 +939,20 @@ hr {
 
 .footer__inner {
   padding-bottom: 65px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer__cols--first {
+  width: 40%;
+}
+
+.footer__cols--second {
+  width: 29%;
+}
+
+.footer__cols--third {
+  width: 23%;
 }
 
 .footer__logo {
@@ -953,6 +967,10 @@ hr {
   font-family: 'Roboto', sans-serif;
   color: #999;
   margin-bottom: 30px;
+}
+
+b {
+  font-size: 16px;
 }
 
 .footer__social {
@@ -986,17 +1004,69 @@ hr {
   color: #95e1d3;
 }
 
+.footer__title {
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  padding-left: ;
+}
 
+/* Blogs */
+
+.blogs {
+  padding-bottom: 12px;
+}
+
+.blogs__item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.blogs__photo {
+  width: 120px;
+  height: 80px;
+}
+
+.blogs__content {
+  padding-left: 20px;
+}
+
+.blogs__title {
+  color: #333;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.blogs__title:hover {
+  text-decoration: underline;
+}
+
+.blogs__date {
+  font-size: 13px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  color: #999;
+  font-weight: 300;
+}
 
 /* Subscribe */
 
 .subscribe {
   width: 100%;
-  max-width: 100%;
+  max-width: 380px;
   display: flex;
 }
 
 .subscribe__input {
+  width: 60%;
   padding: 12px;
   height: 40px;
   background: #fff;
@@ -1004,12 +1074,18 @@ hr {
   font-size: 15p;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
-  color: #ccc;
+  color: rgb(0, 0, 0);
+  border-right: 0;
   font-weight: 300;
   line-height: 1.1;
 }
 
+.subscribe__input::placeholder {
+  color: #ccc;
+}
+
 .subscribe__button {
+  width: 40%;
   padding: 12px 25px;
   height: 40px;
   border: 0;
@@ -1021,59 +1097,49 @@ hr {
   color: #fff;
   line-height: 1.1;
   cursor: pointer;
+  transition: background .2s linear;
 }
 
+.subscribe__button:hover {
+  background-color: red;
+  color: yellow;
+}
 
+/* Instagram */
 
+.inst {
+  display: flex;
+  flex-wrap: wrap ;
+}
 
+.inst__item {
+  width: 32.33333%;
+  border-bottom: 2px solid #fff;
+}
 
+.inst__item img {
+  display: block;
+}
 
+.inst__text {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #333;
+  padding-top: 12px;
+}
 
+/* Copyright */
 
+.copyright {
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.copyright span {
+  color: #f38181;
+}
