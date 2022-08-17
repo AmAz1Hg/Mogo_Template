@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
@@ -15,7 +17,7 @@
       src="https://kit.fontawesome.com/b19d8aa445.js"
       crossorigin="anonymous"
     ></script>
-    <title>Mogo</title>
+    <title>MoGo</title>
     <style>
       .images {
         width: 7%;
@@ -64,19 +66,19 @@
           <div class="slider__inner">
             <div class="slider__item active">
               <span class="slider__number">01</span>
-              Intro
+               <span class="slider__text">Intro</span>  
             </div>
             <div class="slider__item">
               <span class="slider__number">02</span>
-              Work
+              <span class="slider__text">Work</span> 
             </div>
             <div class="slider__item">
               <span class="slider__number">03</span>
-              About
+              <span class="slider__text">About</span>
             </div>
             <div class="slider__item">
               <span class="slider__number">04</span>
-              Contacts
+              <span class="slider__text">Contacts</span>
             </div>
           </div>
         </div>
@@ -166,7 +168,7 @@
         </div>
 
         <div class="services">
-          <div class="services__item">
+          <div class="services__item services__item--border">
             <img
               class="services__icon"
               src="assets/images/services/1.png"
@@ -180,21 +182,21 @@
             </div>
           </div>
 
-          <div class="services__item">
+          <div class="services__item services__item--border">
             <img
               class="services__icon"
               src="assets/images/services/2.png"
               alt=""
             />
 
-            <div class="services__title">web design</div>
+            <div class="services__title">Web design</div>
             <div class="services__text">
               Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
             </div>
           </div>
 
-          <div class="services__item">
+          <div class="services__item services__item--border">
             <img
               class="services__icon"
               src="assets/images/services/3.png"
@@ -207,12 +209,6 @@
               tempor.
             </div>
           </div>
-        </div>
-        <!-- Services.1 -->
-
-        <hr />
-
-        <div class="services">
           <div class="services__item">
             <img
               class="services__icon"
@@ -220,7 +216,7 @@
               alt=""
             />
 
-            <div class="services__title">seo</div>
+            <div class="services__title">SEO</div>
             <div class="services__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
@@ -234,7 +230,7 @@
               alt=""
             />
 
-            <div class="services__title">css/html</div>
+            <div class="services__title">Css/Html</div>
             <div class="services__text">
               Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
@@ -248,14 +244,14 @@
               alt=""
             />
 
-            <div class="services__title">digital</div>
+            <div class="services__title">Digital</div>
             <div class="services__text">
               Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
             </div>
           </div>
         </div>
-        <!-- Services.2 -->
+        <!-- Services -->
       </div>
       <!-- Container -->
     </section>
@@ -296,7 +292,7 @@
 
         <div class="WeDo">
           <div class="WeDo__item">
-            <img src="/assets/images/icons/0.jpg" alt="" />
+            <img class="WeDo__img" src="/assets/images/icons/0.jpg" alt="" />
           </div>
           <div class="WeDo__item">
             <div class="accordion">
@@ -415,7 +411,7 @@
           <div class="about__item">
             <div class="about__inner">
               <div class="about__img">
-                <img src="assets/images/team/team_03.png" alt="1" />
+                <img src="assets/images/team/team_03.jpg" alt="" />
               </div>
               <div class="about__text">
                 <div class="social">
@@ -506,22 +502,22 @@
       <div class="container">
         <div class="logos">
           <div class="logos__item">
-           <img src="/assets/images/logos/logos_1.png" alt="">
+           <img class="logos__image" src="/assets/images/logos/logos_1.png" alt="">
           </div>
           <div class="logos__item">
-           <img src="/assets/images/logos/logos_2.png" alt="">
+           <img class="logos__image" src="/assets/images/logos/logos_2.png" alt="">
           </div>
           <div class="logos__item">
-           <img src="/assets/images/logos/logos_3.png" alt="">
+           <img class="logos__image" src="/assets/images/logos/logos_3.png" alt="">
+          </div>
+          <div  class="logos__item">
+           <img class="logos__image" src="/assets/images/logos/logos_4.png" alt="">
           </div>
           <div class="logos__item">
-           <img src="/assets/images/logos/logos_4.png" alt="">
+           <img class="logos__image" src="/assets/images/logos/logos_05.png" alt="">
           </div>
           <div class="logos__item">
-           <img src="/assets/images/logos/logos_05.png" alt="">
-          </div>
-          <div class="logos__item">
-           <img src="/assets/images/logos/logos_06.png" alt="">
+           <img class="logos__image" src="/assets/images/logos/logos_06.png" alt="">
           </div>
         </div>
         </div>
@@ -616,13 +612,13 @@
     </div>
 
   </section>
-  <div class="section">
+  <div class="section section--1">
     <div class="container">
       <div class="reviews">
         <a class="reviews__btn reviews__btn--prev" href="#">prev</a>
         <a class="reviews__btn reviews__btn--next" href="#">next</a>
         <div class="reviews__item">
-          <img class="reviews__photos" src="assets/images/works/avatar_03.png" alt="" />
+          <img class="reviews__photo reviews__photo--edit " src="assets/images/works/avatar_03.png" alt="" />
           <div class="reviews__text--edit">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -640,7 +636,7 @@
   <div class="container">
     <div class="section__header">
       <h3 class="section__suptitle">Happy Clients</h3>
-      <h2 class="section__title">What people say</h2>
+      <h2 class="section__title section__title--2">What people say</h2>
    </div>
 
    <div class="clients">
@@ -910,7 +906,7 @@
        </div>
     </div> 
     </div> <!-- footer__inner -->
-    <div class="copyright">© 2016 MoGO free PSD template by <span>Laaqiq</span>
+    <div class="copyright">© 2022 MoGo free PSD template by <span>Laaqiq & AmAz1Hg</span>
    </div>
   </div> <!-- Container -->
 </footer>
